@@ -32,9 +32,9 @@ async function identifyTrash(base64Image) {
     resultDiv.innerText = "正在分析中，请稍后...";
 
     // --- 请在此处填写你的信息 ---
-    const API_KEY = "你的豆包API_KEY"; 
+    const API_KEY = "2afd5919-81b8-4987-b377-63bcbac0133e"; 
     const ENDPOINT = "https://ark.cn-beijing.volces.com/api/v3/chat/completions";
-    const MODEL_ID = "你的推理终端ID"; // 豆包的推理终端 ID
+    const MODEL_ID = "ep-20260207164138-jv7bx"; // 豆包的推理终端 ID
     // -------------------------
 
     try {
