@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能垃圾分类识别</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 20px; background: #f4f4f4; }
+        #video { width: 100%; max-width: 400px; border-radius: 10px; background: #000; }
+        #canvas { display: none; }
+        button { background: #007bff; color: white; border: none; padding: 15px 30px; border-radius: 25px; font-size: 18px; margin-top: 20px; }
+        #result { margin-top: 20px; padding: 15px; border-radius: 10px; background: white; display: none; text-align: left; }
+    </style>
+</head>
+<body>
+    <h2>♻️ 垃圾分类助手</h2>
+    <video id="video" autoplay playsinline></video>
+    <canvas id="canvas"></canvas>
+    <br>
+    <button id="capture">拍摄并识别</button>
+    <div id="result">识别中...</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
